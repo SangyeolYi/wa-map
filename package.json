@@ -6,7 +6,8 @@
     "dev": "vite",
     "start": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "mocha"
   },
   "devDependencies": {
     "@types/node": "^17.0.36",
@@ -15,7 +16,12 @@
     "wa-map-optimizer-vite": "^1.1.5"
   },
   "dependencies": {
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.0",
     "@workadventure/iframe-api-typings": "^1.12.10",
-    "@workadventure/scripting-api-extra": "^1.4.4"
+    "@workadventure/scripting-api-extra": "^1.4.4",
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0",
+    "ts-node": "^10.9.1"
   }
 }

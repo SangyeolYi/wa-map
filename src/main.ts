@@ -32,5 +32,3 @@ function closePopup(){
         currentPopup = undefined;
     }
 }
-
-export {};
