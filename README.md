@@ -44,7 +44,7 @@ npm run test
 ```
 
 ## Test your map with scenarios
-You can create e2e tests with customs scenarios, create a [PlayWright](https://playwright.dev) test file inside `tests/e2e` folder, name your file like this `mytest.spec.[ts|js]` and run the following command :
+You can create e2e tests with customs scenarios, create a [Playwright](https://playwright.dev) test file inside `tests/e2e` folder, name your file like this `mytest.spec.[ts|js]` and run the following command :
 ```sh
 npm run e2e
 ```
